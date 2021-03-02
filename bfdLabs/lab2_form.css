@@ -1,0 +1,73 @@
+.frm {
+    width: 800px;
+      padding: 30px;
+      margin: 10px;
+    position: relative;
+}
+
+fieldset {width: 850px;}
+
+button {
+width: 20%;
+padding: 12px 20px;
+margin: 8px 10px;
+float: right;
+margin-bottom: 30px;
+}
+
+.buttons {
+width: 100%;
+}
+
+input[type=text], select {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+}
+
+
+
+input[type=email], input[type=tel] {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+}
+
+.input-text32 {
+width: 191px;
+padding-right: 6px;
+padding-left: 6px;
+float: left;
+}
+
+.input-text33 {
+width: 191px;
+padding-left: 6px;
+float: left;
+}
+
+.input-text31, .input-text4 {
+width: 191px;
+padding-right: 6px;
+float: left;
+}
+
+.input-text34 {
+width: 191px;
+padding-left: 12px;
+float: left;
+}
+
+
+.input-text5 {
+width: 597px;
+padding-left: 6px;
+float: left;
+}
+
+.input-id {
+width: 260px;
+padding-right: 6px;
+}
