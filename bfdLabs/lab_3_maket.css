@@ -1,0 +1,362 @@
+
+body{
+    background: linear-gradient(0deg, #5F7AD3, #5F7AD3);
+    margin:0;
+    padding:0;
+}
+
+.all {
+    background: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1300px;
+}
+header {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, 20%);
+   grid-auto-rows: 80px;
+   align-items: center;
+   margin-top: 100px;
+}
+
+#logo {
+    width: 115px;
+    height: 59px;
+    margin-left: 20px;
+}
+#hover {
+    width: 110px;
+    height: 80px;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    margin-left: 27px;
+}
+#search {
+    width: 32px;
+    height: 32px;
+    margin-bottom: 6px;
+}
+#profile {
+    width: 49px;
+    height: 48px;
+    margin-right: 29px;
+    margin-left: 25px;
+}
+
+#hader-logo{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
+}
+#header-search-profile{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    justify-self: end;
+}
+
+#now-playing {
+    display: grid;
+    grid-template-columns: 35px repeat(auto-fit, minmax(252px, 256px)) 241px;
+    grid-auto-rows: 368px;
+}
+
+.now-playing-img {
+    width: 252px;
+    height: 368px;
+}
+.now-playing-right{
+    position: relative;
+    height: 368px;
+    z-index: 0;
+}
+#shape{
+    position: relative;
+    float:right;
+    grid-column-start: 6;
+    z-index: 2;
+    top: -372px;
+}
+
+#rectangle {
+    max-width: 35px;
+    height: 368px;
+    background: #2998E2;
+}
+
+#jason-bourne {
+    margin-top: 4px;
+    display: grid;
+    grid-template-columns: 34px repeat(auto-fit, 508px) 758px;
+    grid-auto-rows: 409px;
+}
+
+#badge-orange {
+    width: 34px;
+    height: 409px;
+}
+#background {
+    width: 500px;
+    height: 395px;
+    padding-left: 4px;
+    padding-bottom: 4px;
+    padding-right: 4px;
+    padding-top: 10px;
+    display: grid;
+    grid-template-rows: 313px 80px;
+    grid-template-columns: 1fr 1fr;
+}
+.scrin {
+    width: 80px;
+    height: 80px;
+}
+.bourn {
+    width: 156px;
+    height: 221px;
+    margin-left: 14px;
+    margin-top: 6px;
+    z-index: 1;
+    position: relative;
+}
+.icon {
+    width: 32px;
+    height: 32px;
+    z-index: 3;
+    position: relative;
+    left: -160px;
+    top: -195px;
+    
+}
+#born-icon {
+    grid-area: 1 / 1 / 2 / 2;
+}
+#tag-action, #tag-triller {
+    width: 54px;
+    height: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#tag-action{
+    margin-left: 47px;
+}
+#tags{
+    grid-area: 1 / 2 / 2 / 3;
+    display: flex;
+    align-items: center;
+}
+#screenshots {
+    grid-area: 2 / 1 / 3 / 3;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#trailer-sec {
+    width: 758px;
+    height: 409px;
+    display: grid;
+    grid-template-columns: 363px 206px 153px 36px;
+    grid-auto-rows: 179px 200px 30px;
+}
+#video {
+    width: 758px;
+    height: 409px;
+    grid-area: 1 / 1 / 5 / 2;
+}
+#pagination{
+    grid-area: 3 / 3 / 4 / 4;
+}
+#play{
+    grid-area: 2 / 2 / 3 / 3;
+}
+#shape-trailer{
+    grid-area: 1 / 4 / 1 / 5;
+}
+
+#news-born-see-wallpapers{
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 67px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid  rgba(0, 0, 0, 0.149994);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 406px));
+    grid-column-gap: 25px;
+}
+.news-art{
+    height: 101px;
+}
+#last-news{
+    grid-area: 1 / 1 / 3 / 2;
+    display: flex;
+    flex-direction: column;
+    min-height: 344px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+#born-today{
+    grid-area: 1 / 2 / 2 / 3;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+#see-on-netflix{
+    grid-area: 2 / 2 / 3 / 3;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1px;
+    padding-right: 1px;
+    margin-top: 28px;
+}
+#wallpapers{
+    grid-area: 1 / 3 / 3 / 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#top-random-box {
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 65px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(406px, 410px));
+    grid-column-gap: 19px;
+}
+
+#background-random-movie{
+    max-width: 408px;
+    min-height: 346px;
+    padding: 1px;
+}
+#tags-button{
+    margin-left: 12px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+button{
+    border: 0;
+    font-size:0;
+    padding: 0;
+    background: rgba(255, 255, 255, 0.187302);
+    margin-top: 17px;
+}
+#recently-ciewed{
+    display: grid;
+    margin-top: 63px;
+    padding-bottom: 17px;
+    border-bottom: 1px solid  rgba(0, 0, 0, 0.149994);
+}
+#ciewed{
+    grid-area: 1 / 1 / 2 / 3;
+    margin-left: 16px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+#footer{
+    margin-left: 16px;
+    margin-right: 16px;
+    padding-top: 66px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 390px));
+    min-height: 220px;
+    grid-auto-rows: 129px auto;
+    margin-bottom: 100px;
+}
+#IMDbeverywhere{
+    grid-area: 1 / 1 / 2 / 2;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+#FollowIMDbon-Flickr{
+    grid-area: 1 / 2 / 2 / 4;
+    display: flex;
+}
+#FollowIMDbon{
+    display: flex;
+    margin-left: 32px;
+    margin-top: 1px;
+    max-width: 192px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+#Flickr{
+    display: flex;
+    max-width: 195px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-left: 37px;
+}
+.footer-1{
+    width: 124px;
+    height: 38px;
+}
+.footer-2{
+    width: 54px;
+    height: 54px;
+}
+.footer-3{
+    width: 63px;
+    height: 63px;
+}
+#Amazon{
+    grid-area: 2 / 1 / 3 / 4;
+    display: flex;
+    align-items: flex-end;
+}
+.footer-4{
+    width: 100px;
+    height: 20px;
+    margin-bottom: 11px;
+}
+.G{
+    margin-left: 69px;
+}
+.shape3{
+    grid-area: 1 / 2 / 2 / 3;
+    justify-self: end;
+}
+.rangom{
+    width: 408px;
+    height: 222px;
+    margin-bottom: 17px;
+}
+.top-box-list{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.top{
+    width: 42px;
+    height: 56px;
+    margin: 1px 0;
+}
+.list-1 {
+    height: 58px;
+}
+.top250{
+    margin-left: 20px;
+}
+.wallpapers{
+    width: 406px;
+    height: 101px;
+}
+.news{
+    width: 138px;
+    height: 101px;
+}
+.actor-see {
+    width: 80px;
+    height: 112px;
+}
+.background {
+    background: #07131B;
+}
+.orange {
+    background: #EA4737;
+}
+
